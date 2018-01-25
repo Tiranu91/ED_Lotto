@@ -9,13 +9,14 @@ namespace ED_Lotto
     class TLotto
     {
 
-        private int ilottozahlen;
-        private int itip;
-        private bool bresult;
+        int[] lottery = new int[6];
+        int[] tip = new int[6];
+        bool[] result = new bool[6];
+               
 
         private TLotto()
         {
-
+            
         }
 
         private static TLotto lotto = new TLotto();
@@ -25,38 +26,95 @@ namespace ED_Lotto
             return lotto;
         }
 
-        public int Lottozahlen
+        public int[] Lottery
         {
-            get { return ilottozahlen; }
-            set { ilottozahlen = value; }
+            get { return lottery; }
+            set { lottery = value; }
         }
 
-        public int Tip
+        public int[] Tip
         {
-            get { return itip; }
-            set { itip = value; }
+            get { return tip; }
+            set { tip = value; }
         }
 
-        public bool Result
+        public bool[] Result
         {
-            get { return bresult; }
-            set { bresult = value; }
+            get { return result; }
+            set { result = value; }
         }
 
 
-        public void CalculateResult()
+        public void CalculateResultNumber1()
         {
-            if (ilottozahlen == itip)
+            if (lottery[0] == tip[0])
             {
-                bresult = true;
+                result[0] = true;
             }
-            else if(ilottozahlen != itip)
+            else if(lottery[0] == tip[0])
             {
-                bresult = false;
+                result[0] = false;
             }
         }
 
+        public void CalculateResultNumber2()
+        {
+            if (lottery[1] == tip[1])
+            {
+                result[1] = true;
+            }
+            else if (lottery[1] == tip[1])
+            {
+                result[1] = false;
+            }
+        }
 
+        public void CalculateResultNumber3()
+        {
+            if (lottery[2] == tip[2])
+            {
+                result[2] = true;
+            }
+            else if (lottery[2] == tip[2])
+            {
+                result[2] = false;
+            }
+        }
+
+        public void CalculateResultNumber4()
+        {
+            if (lottery[3] == tip[3])
+            {
+                result[3] = true;
+            }
+            else if (lottery[3] == tip[3])
+            {
+                result[3] = false;
+            }
+        }
+
+        public void CalculateResultNumber5()
+        {
+            if (lottery[4] == tip[4])
+            {
+                result[4] = true;
+            }
+            else if (lottery[4] == tip[4])
+            {
+                result[4] = false;
+            }
+        }
+            public void CalculateResultNumber6()
+        {
+                if (lottery[5] == tip[5])
+                {
+                    result[5] = true;
+                }
+                else if (lottery[5] == tip[5])
+                {
+                    result[0] = false;
+                }
+            }
 
     }
 }

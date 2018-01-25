@@ -21,7 +21,12 @@ namespace ED_Lotto
         {
             TLotto lotto = TLotto.getInstance();
 
-            lotto.Lottozahlen = Convert.ToInt32(tb_lotto.Text);
+            lotto.Lottery[0] = Convert.ToInt32(tb_lotto0.Text);
+            lotto.Lottery[1] = Convert.ToInt32(tb_lotto1.Text);
+            lotto.Lottery[2] = Convert.ToInt32(tb_lotto2.Text);
+            lotto.Lottery[3] = Convert.ToInt32(tb_lotto3.Text);
+            lotto.Lottery[4] = Convert.ToInt32(tb_lotto4.Text);
+            lotto.Lottery[5] = Convert.ToInt32(tb_lotto5.Text);
 
             Tips tips = new Tips();
             tips.Show();
