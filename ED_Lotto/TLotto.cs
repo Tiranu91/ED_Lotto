@@ -8,10 +8,10 @@ namespace ED_Lotto
 {
     class TLotto
     {
-
         int[] lottery = new int[6];
         int[] tip = new int[6];
         bool[] result = new bool[6];
+        int countedresult;
                
 
         private TLotto()
@@ -43,6 +43,13 @@ namespace ED_Lotto
             get { return result; }
             set { result = value; }
         }
+
+        public int Countedresult
+        {
+            get { return countedresult; }
+            set { countedresult = value; }
+        }
+
 
 
         public void CalculateResultNumber1()
@@ -115,6 +122,11 @@ namespace ED_Lotto
                     result[0] = false;
                 }
             }
+
+        public void CalculateValues()
+        {
+            Countedresult = result.Count(c => c == true);
+        }
 
     }
 }

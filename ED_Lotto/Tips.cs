@@ -20,6 +20,7 @@ namespace ED_Lotto
         private void btn_tip_Click(object sender, EventArgs e)
         {
             TLotto lotto = TLotto.getInstance();
+            THighscore highscore = THighscore.getInstance();
 
             lotto.Tip[0] = Convert.ToInt32(tb_tip0.Text);
             lotto.Tip[1] = Convert.ToInt32(tb_tip1.Text);
@@ -88,6 +89,26 @@ namespace ED_Lotto
             {
                 lbl_number6.Text = "Falsch";
             }
+
+            lotto.CalculateValues();
+            lbl_result.Text = lotto.Countedresult.ToString();
+
+            highscore.Ahighscore[0].name = tb_name.Text;
+            highscore.Ahighscore[0].points = lotto.Countedresult;
+        }
+
+        private void btn_highscore_Click(object sender, EventArgs e)
+        {
+            
+            THighscore highscore = THighscore.getInstance();
+            /*
+            TLotto lotto = TLotto.getInstance();
+
+            highscore.Ahighscore[0].name = tb_name.Text;
+            highscore.Ahighscore[0].points = lotto.Countedresult;
+            */
+
+            MessageBox.Show(highscore.Ahighscore[0].name.ToString() + highscore.Ahighscore[0].points.ToString());
         }
     }
 }
