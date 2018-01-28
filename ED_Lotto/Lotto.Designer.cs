@@ -39,10 +39,10 @@
             // 
             // btn_digits
             // 
-            this.btn_digits.Location = new System.Drawing.Point(114, 89);
-            this.btn_digits.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_digits.Location = new System.Drawing.Point(127, 108);
+            this.btn_digits.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_digits.Name = "btn_digits";
-            this.btn_digits.Size = new System.Drawing.Size(66, 41);
+            this.btn_digits.Size = new System.Drawing.Size(133, 50);
             this.btn_digits.TabIndex = 0;
             this.btn_digits.Text = "Zahlen eingeben";
             this.btn_digits.UseVisualStyleBackColor = true;
@@ -50,63 +50,63 @@
             // 
             // tb_lotto0
             // 
-            this.tb_lotto0.Location = new System.Drawing.Point(44, 37);
-            this.tb_lotto0.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tb_lotto0.Location = new System.Drawing.Point(59, 45);
+            this.tb_lotto0.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tb_lotto0.Name = "tb_lotto0";
-            this.tb_lotto0.Size = new System.Drawing.Size(31, 20);
+            this.tb_lotto0.Size = new System.Drawing.Size(40, 22);
             this.tb_lotto0.TabIndex = 1;
             this.tb_lotto0.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // tb_lotto2
             // 
-            this.tb_lotto2.Location = new System.Drawing.Point(114, 37);
-            this.tb_lotto2.Margin = new System.Windows.Forms.Padding(2);
+            this.tb_lotto2.Location = new System.Drawing.Point(152, 45);
+            this.tb_lotto2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tb_lotto2.Name = "tb_lotto2";
-            this.tb_lotto2.Size = new System.Drawing.Size(31, 20);
+            this.tb_lotto2.Size = new System.Drawing.Size(40, 22);
             this.tb_lotto2.TabIndex = 2;
             this.tb_lotto2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // tb_lotto3
             // 
-            this.tb_lotto3.Location = new System.Drawing.Point(149, 37);
-            this.tb_lotto3.Margin = new System.Windows.Forms.Padding(2);
+            this.tb_lotto3.Location = new System.Drawing.Point(199, 45);
+            this.tb_lotto3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tb_lotto3.Name = "tb_lotto3";
-            this.tb_lotto3.Size = new System.Drawing.Size(31, 20);
+            this.tb_lotto3.Size = new System.Drawing.Size(40, 22);
             this.tb_lotto3.TabIndex = 3;
             this.tb_lotto3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // tb_lotto4
             // 
-            this.tb_lotto4.Location = new System.Drawing.Point(184, 37);
-            this.tb_lotto4.Margin = new System.Windows.Forms.Padding(2);
+            this.tb_lotto4.Location = new System.Drawing.Point(245, 45);
+            this.tb_lotto4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tb_lotto4.Name = "tb_lotto4";
-            this.tb_lotto4.Size = new System.Drawing.Size(31, 20);
+            this.tb_lotto4.Size = new System.Drawing.Size(40, 22);
             this.tb_lotto4.TabIndex = 4;
             this.tb_lotto4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // tb_lotto5
             // 
-            this.tb_lotto5.Location = new System.Drawing.Point(219, 37);
-            this.tb_lotto5.Margin = new System.Windows.Forms.Padding(2);
+            this.tb_lotto5.Location = new System.Drawing.Point(292, 45);
+            this.tb_lotto5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tb_lotto5.Name = "tb_lotto5";
-            this.tb_lotto5.Size = new System.Drawing.Size(31, 20);
+            this.tb_lotto5.Size = new System.Drawing.Size(40, 22);
             this.tb_lotto5.TabIndex = 5;
             this.tb_lotto5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // tb_lotto1
             // 
-            this.tb_lotto1.Location = new System.Drawing.Point(79, 37);
-            this.tb_lotto1.Margin = new System.Windows.Forms.Padding(2);
+            this.tb_lotto1.Location = new System.Drawing.Point(105, 45);
+            this.tb_lotto1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tb_lotto1.Name = "tb_lotto1";
-            this.tb_lotto1.Size = new System.Drawing.Size(31, 20);
+            this.tb_lotto1.Size = new System.Drawing.Size(40, 22);
             this.tb_lotto1.TabIndex = 6;
             this.tb_lotto1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // Lotto
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(291, 141);
+            this.ClientSize = new System.Drawing.Size(388, 192);
             this.Controls.Add(this.tb_lotto1);
             this.Controls.Add(this.tb_lotto5);
             this.Controls.Add(this.tb_lotto4);
@@ -114,7 +114,7 @@
             this.Controls.Add(this.tb_lotto2);
             this.Controls.Add(this.tb_lotto0);
             this.Controls.Add(this.btn_digits);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Lotto";
             this.Text = "Zahleneingabe";
             this.ResumeLayout(false);
